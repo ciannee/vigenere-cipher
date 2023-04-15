@@ -3,7 +3,9 @@
 # Assignment 3 : Redo Problem 3 with multiple github commits (Vigenere Cipher)
 
 # looping
-
+cipher_str = ""
+while cipher_str != "no":
+    
 # build class of colors to print color text
 
     #ask for user's input
