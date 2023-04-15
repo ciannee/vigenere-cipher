@@ -75,9 +75,10 @@ while cipher_str != "no":
 
     def decrypt (cipher, key):
         decrypted = ""
-        
+
         # split ciphertext to the length of key
-       
+        split_cipher = [cipher[i:i + len(key)] for i in range(0, len(cipher), len(key))] # start, end, step
+        
         # convert ciphertext to index and subtract key 
 
     # looping
