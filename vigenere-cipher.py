@@ -34,11 +34,18 @@ while cipher_str != "no":
         lightblue = '\033[94m'
         pink = '\033[95m'
         lightcyan = '\033[96m'
-        
+
     #ask for user's input
+    name = input("\n\033[01mPlease enter your name: ")
+    kawaii = ("₍ ᐢ.ˬ.ᐢ₎")
+    import time
+    time.sleep(3)
 
-    #import pyfiglet
+    import pyfiglet
+    name_art = pyfiglet.figlet_format(name, font='banner3-D')
 
+    kawaii = ("₍ ᐢ.ˬ.ᐢ₎")
+    
     #print output
     
     # convert letter to index and index to letter
