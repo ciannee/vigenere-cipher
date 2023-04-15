@@ -116,4 +116,18 @@ while cipher_str != "no":
     time.sleep(3)
     cipher_str = input("\n\n\033[35mDo you want to try the Vigenere Cipher again? \n\nPlease enter YES or NO: ")
     if cipher_str == "YES":
+        print("\n\033[36mSTARTING..........")
+        time.sleep(3)
+        print("\n  █▒▒▒▒▒▒▒▒▒")
+        time.sleep(1)
+        print("\n  ███▒▒▒▒▒▒▒")
+        time.sleep(1)
+        print("\n  █████▒▒▒▒▒")
+        time.sleep(1)
+        print("\n  ███████▒▒▒")
+        time.sleep(1)
+        print("\n  ██████████")
+        import time
+        time.sleep(3)
+
         # print outro
