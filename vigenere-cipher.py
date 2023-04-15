@@ -105,7 +105,13 @@ while cipher_str != "no":
         print("\n  ███████▒▒▒")
         time.sleep(1)
         print("\n  ██████████")
-        
+
+        print("\n\033[33m• • • • • • • The Message is: • • • • • • • " + "\n\n\t" + message.upper())
+        time.sleep(3)
+        print("\n\033[93m• • • • • • • The Ciphertext will be: • • • • • • • " + "\n\n\t" + encrypted_message.upper())
+    
+    main()
+    
     # looping
 
         # print outro
