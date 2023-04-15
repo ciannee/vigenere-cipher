@@ -49,9 +49,16 @@ while cipher_str != "no":
     #print output
     print("Hi.......\n\n\n" + colors.underline, name_art)
     print("\n\n ══✿══╡°˖ This is the Vigenere Cipher! ✧˖°╞══✿══")
-    
-    # convert letter to index and index to letter
 
+    # convert letter to index and index to letter
+    alphabet = "abcdefghijklmnopqrstuvwxyz"
+
+    letter_to_index = dict(zip(alphabet, range(len(alphabet))))
+    index_to_letter = dict(zip(range(len(alphabet)), alphabet))
+
+    def encrypt (message, key):
+        encrypted = ""
+        
         # split the message to the length of the key
        
         # convert message to index and add key
