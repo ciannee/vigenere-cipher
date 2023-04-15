@@ -111,7 +111,9 @@ while cipher_str != "no":
         print("\n\033[93m• • • • • • • The Ciphertext will be: • • • • • • • " + "\n\n\t" + encrypted_message.upper())
     
     main()
-    
-    # looping
 
+    # looping
+    time.sleep(3)
+    cipher_str = input("\n\n\033[35mDo you want to try the Vigenere Cipher again? \n\nPlease enter YES or NO: ")
+    if cipher_str == "YES":
         # print outro
