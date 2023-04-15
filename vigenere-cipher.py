@@ -63,7 +63,19 @@ while cipher_str != "no":
         split_message = [message[i:i + len(key)] for i in range (0, len(message), len(key))] # start, end, step
         
         # convert message to index and add key
+        for each_split in split_message:
+            i = 0
+            for letter in each_split:
+                number = (letter_to_index[letter] + letter_to_index[key[i]]) % len(alphabet)
+                encrypted += index_to_letter[number]
+                i += 1
+        
+        return encrypted 
 
+
+    def decrypt (cipher, key):
+        decrypted = ""
+        
         # split ciphertext to the length of key
        
         # convert ciphertext to index and subtract key 
