@@ -58,9 +58,10 @@ while cipher_str != "no":
 
     def encrypt (message, key):
         encrypted = ""
-        
+
         # split the message to the length of the key
-       
+        split_message = [message[i:i + len(key)] for i in range (0, len(message), len(key))] # start, end, step
+        
         # convert message to index and add key
 
         # split ciphertext to the length of key
