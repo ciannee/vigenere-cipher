@@ -129,5 +129,9 @@ while cipher_str != "no":
         print("\n  ██████████")
         import time
         time.sleep(3)
+     elif cipher_str == "NO":
+        import time
+        time.sleep(3)
+        print("\n ❁ ≖≖≖≖≖≖✿ END ❁ ≖≖≖≖≖≖ ❁")
 
         # print outro
