@@ -47,6 +47,8 @@ while cipher_str != "no":
     kawaii = ("₍ ᐢ.ˬ.ᐢ₎")
     
     #print output
+    print("Hi.......\n\n\n" + colors.underline, name_art)
+    print("\n\n ══✿══╡°˖ This is the Vigenere Cipher! ✧˖°╞══✿══")
     
     # convert letter to index and index to letter
 
