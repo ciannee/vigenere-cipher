@@ -93,6 +93,18 @@ while cipher_str != "no":
         key = "knights"
         message = "thisisthelasttaskhoorday"
         encrypted_message = encrypt(message, key)
+
+        import time
+        time.sleep(3)
+        print("\n  █▒▒▒▒▒▒▒▒▒")
+        time.sleep(1)
+        print("\n  ███▒▒▒▒▒▒▒")
+        time.sleep(1)
+        print("\n  █████▒▒▒▒▒")
+        time.sleep(1)
+        print("\n  ███████▒▒▒")
+        time.sleep(1)
+        print("\n  ██████████")
         
     # looping
 
